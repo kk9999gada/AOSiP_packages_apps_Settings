@@ -3417,6 +3417,7 @@
         </activity>
 
         <!-- Changelog -->
+	<!--
         <activity android:name="com.bytehamster.changelog.Main"
                   android:taskAffinity=""
                   android:parentActivityName="Settings"
@@ -3425,6 +3426,7 @@
         <activity android:name="com.bytehamster.changelog.Preferences"
                   android:configChanges="orientation|screenLayout|screenSize"
                   android:label="@string/settings_label" />
+	-->
 
         <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpCategoryActivity"

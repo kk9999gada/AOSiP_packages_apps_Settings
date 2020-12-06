@@ -39,6 +39,7 @@
         <intent android:action="android.settings.BACKUP_AND_RESET_SETTINGS" />
     </Preference>
 
+    <!--
     <Preference
         android:key="update_settings"
         android:title="@string/update_settings_title"
@@ -49,6 +50,7 @@
                 android:targetPackage="@string/update_package"
                 android:targetClass="@string/update_activity" />
     </Preference>
+    -->
 
     <Preference
         android:key="reset_dashboard"
