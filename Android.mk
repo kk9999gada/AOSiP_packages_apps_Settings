@@ -19,7 +19,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
-LOCAL_SRC_FILES += $(call all-java-files-under, ../Changelog/app/src/main/java)
+# LOCAL_SRC_FILES += $(call all-java-files-under, ../Changelog/app/src/main/java)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../../../external/google/settings/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../OwlsNest/src)
 LOCAL_SRC_FILES += $(call all-java-files-under, ../SmartNavSettings/src)
